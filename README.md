@@ -32,9 +32,17 @@
     - 요청은 데이터 처리를 위해 모델 계층으로 추가 전성되고, 일단 처리되면 데이터는 데이터 컨트롤러로 다시 전송된 다음 View에 표시된다.
 - Java Context에서 Model은 간단한 Java 클래스로 구성되고 Controller는 서블릿으로 구성되며, View는 JSP 페이지로 구성된다.
 
+<br>
+
+## DispatcherServlet
+
+- Servlet/JSP에서 사용자 요청이 발생하면 이 요청 정보를 해석하고 개발자가 만든 코드를 동작시키는 첫 번째 서블릿이다.
+- Spring MVC는 DispatcherServlet을 확대하여 Spring Framework가 가지고 있는 기능을 사용할 수 있도록 이 클래스를 재정의하고 있다.
+- Spring MVC 프로젝트 설정에서 가장 먼저 해야하는 일은 DispatcherServlet 클래스를 Spring MVC에서 재정의한 클래스로 설정하는 일이다.
+
+<br>
 
 
 
-
-
+### 
 

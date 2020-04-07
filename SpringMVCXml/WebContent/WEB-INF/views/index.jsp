@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>test2.mvc</h1>
-	<h3>result : ${result }</h3>
+	<h1>Hello Spring MVC</h1>
+	<img src="image/quote-08c1b712d6a6f2a891a0c524f236ca60.svg"/>
 </body>
 </html>

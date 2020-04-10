@@ -42,3 +42,137 @@
 
 <br>
 
+## 설정(Setting)하기
+
+Spring을 세팅하는 방법에는 2가지 방법이 있다.(XML, Java)
+
+Spring 4버전에서는 XML만 지원했으나 5버전은 Java로 세팅하는 방법도 제공한다.
+
+### XML로 세팅하기
+
+- DispatcherServlet 설정
+
+  - 클래스를 Spring에서 제공하는 클래스로 설정한다.
+
+    ```
+    <!-- 요청 정보를 분석해서 컨트롤러를 선택하는 서블릿을 지원한다. -->
+    <servlet>
+        <servlet-name>appServlet</servlet-name>
+        <!-- Spring MVC에서 제공하고 있는 기본 서블릿을 지정한다. -->
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    	<!-- 현재 웹 애플리케이션에서 받아들이는 모든 요청에 대해 appServlet이라는 이름으로 정의되어 있는 서블릿을 사용하겠다. -->
+    <servlet-mapping>
+        <servlet-name>appServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    ```
+
+- ApplicationContext 설정
+
+  - Spring MVC 로 만든 웹 애플리케이션에 대한 설정을 하는 파일이다.
+
+    ```xml
+    <!-- 요청 정보를 분석해서 컨트롤러를 선택하는 서블릿을 지원한다. -->
+    <servlet>
+    	<servlet-name>appServlet</servlet-name>
+    	<!-- Spring MVC에서 제공하고 있는 기본 서블릿을 지정한다. -->
+    	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    	<!-- Spring MVC 설정을 위한 xml 파일을 지정한다. -->
+    	<init-param>
+    		<param-name>contextConfigLocation</param-name>
+    		<param-value>/WEB-INF/config/servlet-context.xml</param-value>
+    	</init-param>
+    	<load-on-startup>1</load-on-startup>
+    </servlet>
+    ```
+
+- RootContext 파일 설정
+
+  - Spring MVC 프로젝트 수행 시 사용할 Bean들을 정의하는 파일이다.
+
+    ```xml
+    <!-- Bean을 정의할 xml 파일을 지정한다.  -->
+    <context-param>
+    	<param-name>contextConfigLocation</param-name>
+    	<param-value>/WEB-INF/config/root-context.xml</param-value></context-param>
+    	
+    <!-- 리스너 설정 -->
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    ```
+
+- encodingFilter 설정
+
+  - 파라미터 필터 설정. 파라미터에 한글이 있을 경우를 위해 인코딩을 설정한다.
+
+    ```xml
+    <!-- 파라미터 인코딩 필터 설정 -->
+    <filter>
+        <filter-name>encodingFilter</filter-name>
+        <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+        <init-param>
+            <param-name>forceEncoding</param-name>
+            <param-value>true</param-value>
+        </init-param>
+    </filter>
+    
+    <filter-mapping>
+        <filter-name>encodingFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    ```
+
+- Controller 설정
+
+  - app-context.xml 파일에 Controller를 찾을 수 있도록 설정을 한다.
+
+    ```xml
+    <annotation-driven/>
+    <!-- 스캔한 bean들이 모여있는 패키지를 지정한다. -->
+    <context:component-scan base-package="com.ksm.controller"/>
+    ```
+
+  - Controller를 구현한다.
+
+    ```java
+    @Controller
+    public class HomeController {
+        
+        @RequestMapping(value ="/", method = RequestMethod.GET)
+        public String home() {
+            return "index";
+        }
+    }
+    ```
+
+- JSP 설정
+
+  - Controller가 수행되고 랜더링 될 jsp를 설정한다.
+
+    ```xml
+    <!-- Controller의 메서드에서 반환하는 문자열 앞 뒤에 붙힐 경로 정보를 세팅한다. -->
+    	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+       <beans:property name="prefix" value="/WEB-INF/views/"/>
+       <beans:property name="suffix" value=".jsp"/>
+    </beans:bean>
+    ```
+
+- 정적 파일 경로 설정
+
+  - HTML에서 사용할 정적 파일들(이미지, 사운드, JS, CSS 등)이 배치될 경로를 지정한다.
+
+    ```
+    <!-- 정적파일(이미지, 사운드, 동영상, JS, CSS 등등) 경로 세팅 -->
+    	<resources mapping="/**" location="/resources/"/>
+    ```
+
+<br>
+
+### Java로 세팅하기

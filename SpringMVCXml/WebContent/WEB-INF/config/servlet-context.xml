@@ -23,7 +23,7 @@
 	</beans:bean>
 	
 	<!-- 정적파일(이미지, 사운드, 동영상, JS, CSS 등등) 경로 세팅 -->
-	<resources mapping="/**" location="/resources/"></resources>
+	<resources mapping="/**" location="/resources/"/>
 
  </beans:beans>
 			 

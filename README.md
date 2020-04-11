@@ -176,3 +176,8 @@ Spring 4버전에서는 XML만 지원했으나 5버전은 Java로 세팅하는 �
 <br>
 
 ### Java로 세팅하기
+
+- web.xml => AbstarctAnnotationConfigDispatcherServletInitializer 상속 혹은 WebApplicationInitializer 인터페이스 구현
+- root-context.xml => 상속 없음
+- servlet-context.xml => WebMvcConfigurer 인터페이스 구현
+

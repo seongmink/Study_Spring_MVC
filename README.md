@@ -181,3 +181,4 @@ Spring 4버전에서는 XML만 지원했으나 5버전은 Java로 세팅하는 �
 - root-context.xml => 상속 없음
 - servlet-context.xml => WebMvcConfigurer 인터페이스 구현
 
+<br>

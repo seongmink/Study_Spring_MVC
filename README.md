@@ -1,5 +1,14 @@
 # Study_Spring_MVC
 
+### 목차
+
+- [Section1. Spring MVC의 다양한 기능](/docs)
+  - [URL Mapping](/docs/section1/URL Mapping.md)
+
+
+
+<br>
+
 ## Spring Web MVC
 
 - Spring Web MVC는 서블릿 API를 기반으로 만들어진 웹 프레임 워크다.
@@ -180,5 +189,3 @@ Spring 4버전에서는 XML만 지원했으나 5버전은 Java로 세팅하는 �
 - web.xml => AbstarctAnnotationConfigDispatcherServletInitializer 상속 혹은 WebApplicationInitializer 인터페이스 구현
 - root-context.xml => 상속 없음
 - servlet-context.xml => WebMvcConfigurer 인터페이스 구현
-
-<br>

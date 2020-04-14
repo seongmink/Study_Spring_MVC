@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>sub2/test5</h1>
+	<h1>test6 get</h1>
 </body>
 </html>

@@ -5,6 +5,7 @@
 - Section1. Spring MVC의 다양한 기능
   - [1. URL Mapping](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section1/1.%20URL%20Mapping.md)
   - [2. 요청 방식](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section1/2.%20%EC%9A%94%EC%B2%AD%20%EB%B0%A9%EC%8B%9D.md)
+  - [3. 파라미터 추출](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section1/3.%20%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0%20%EC%B6%94%EC%B6%9C.md)
 
 
 

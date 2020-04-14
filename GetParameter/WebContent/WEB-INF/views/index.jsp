@@ -7,7 +7,30 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Hello Spring MVC Java</h1>
-	<img src="image/quote-08c1b712d6a6f2a891a0c524f236ca60.svg"/>
+	<a href="test1?data1=100&data2=200&data3=300&data3=400">test1</a><br/>
+	
+	<hr/>
+	<form action="test2" method="post">
+		data1 : <input type="text" name="data1"/><br/>
+		data2 : <input type="text" name="data2"/><br/>
+		data3 : <input type="checkbox" name="data3" value="100"/> data3 100
+				<input type="checkbox" name="data3" value="200"/> data3 200<br/>
+		<button type="submit">test2</button>
+	</form>
+	
+	<hr/>
+	<a href="test3?data1=100&data2=200&data3=300&data3=400">test3</a><br/>
+	
+	<hr/>
+	<a href="test4/100/200/300">test4</a><br/>
+	
+	<hr/>
+	<a href="test5?data1=100&data2=200&data3=300&data3=400">test5</a><br/>
+	
+	<hr/>
+	<a href="test6?data1=100&data2=200&data3=300&data3=400">test6</a><br/>
+	
+	<hr/>
+	<a href="test7?data1=100">test7</a><br/>
 </body>
 </html>

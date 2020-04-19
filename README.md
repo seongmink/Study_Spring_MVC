@@ -12,6 +12,9 @@
   - [7. Form 커스텀 태그](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section1/7.%20Form%20%EC%BB%A4%EC%8A%A4%ED%85%80%20%ED%83%9C%EA%B7%B8.md)
   - [8. Form 요소](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section1/8.%20Form%20%EC%9A%94%EC%86%8C.md)
   - [9. Redirect와 Forward](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section1/9.%20Redirect%EC%99%80%20Forward.md)
+- Section2. Spring MVC에서의 Bean 관리
+  - [1. RequestScope](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section2/1.%20RequestScope.md)
+  - [2. RequestScope 빈 주입](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section2/2.%20RequestScope%20%EB%B9%88%20%EC%A3%BC%EC%9E%85.md)
 
 
 

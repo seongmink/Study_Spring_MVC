@@ -15,6 +15,7 @@
 - Section2. Spring MVC에서의 Bean 관리
   - [1. RequestScope](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section2/1.%20RequestScope.md)
   - [2. RequestScope 빈 주입](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section2/2.%20RequestScope%20%EB%B9%88%20%EC%A3%BC%EC%9E%85.md)
+  - [3. SessionScope](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section2/3.%20SessionScope.md)
 
 
 

@@ -20,6 +20,8 @@
   - [5. ApplicationScope](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section2/5.%20ApplicationScope.md)
   - [6. ApplicationScope 빈 주입](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section2/6.%20ApplicationScope%20%EB%B9%88%20%EC%A3%BC%EC%9E%85.md)
   - [7. Cookie](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section2/7.%20Cookie.md)
+- Section3. Spring MVC에서의 유효성 검사
+  - [1. Properties](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section3/1.%20Properties.md)
 
 
 

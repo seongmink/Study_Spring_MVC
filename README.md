@@ -22,6 +22,7 @@
   - [7. Cookie](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section2/7.%20Cookie.md)
 - Section3. Spring MVC에서의 유효성 검사
   - [1. Properties](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section3/1.%20Properties.md)
+  - [2. Message](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section3/2.%20Message.md)
 
 
 

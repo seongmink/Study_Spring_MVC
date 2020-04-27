@@ -23,6 +23,7 @@
 - Section3. Spring MVC에서의 유효성 검사
   - [1. Properties](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section3/1.%20Properties.md)
   - [2. Message](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section3/2.%20Message.md)
+  - [3. 유효성 검사](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section3/3.%20%EC%9C%A0%ED%9A%A8%EC%84%B1%20%EA%B2%80%EC%82%AC.md)
 
 
 

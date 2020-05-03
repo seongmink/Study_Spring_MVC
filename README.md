@@ -26,8 +26,6 @@
   - [3. 유효성 검사](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section3/3.%20%EC%9C%A0%ED%9A%A8%EC%84%B1%20%EA%B2%80%EC%82%AC.md)
   - [4. 에러 메시지 커스터마이징](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section3/4.%20%EC%97%90%EB%9F%AC%20%EB%A9%94%EC%8B%9C%EC%A7%80%20%EC%BB%A4%EC%8A%A4%ED%84%B0%EB%A7%88%EC%9D%B4%EC%A7%95.md)
 
-
-
 <br>
 
 ## Spring Web MVC

@@ -27,6 +27,7 @@
   - [4. 에러 메시지 커스터마이징](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section3/4.%20%EC%97%90%EB%9F%AC%20%EB%A9%94%EC%8B%9C%EC%A7%80%20%EC%BB%A4%EC%8A%A4%ED%84%B0%EB%A7%88%EC%9D%B4%EC%A7%95.md)
   - [5. JSR-303](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section3/5.%20JSR-303.md)
   - [6. JSR-380](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section3/6.%20JSR-380.md)
+  - [7. Validator 커스터마이징](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section3/7.%20Validator%20%EC%BB%A4%EC%8A%A4%ED%84%B0%EB%A7%88%EC%9D%B4%EC%A7%95.md)
 
 <br>
 

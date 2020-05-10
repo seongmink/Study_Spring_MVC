@@ -28,6 +28,8 @@
   - [5. JSR-303](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section3/5.%20JSR-303.md)
   - [6. JSR-380](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section3/6.%20JSR-380.md)
   - [7. Validator 커스터마이징](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section3/7.%20Validator%20%EC%BB%A4%EC%8A%A4%ED%84%B0%EB%A7%88%EC%9D%B4%EC%A7%95.md)
+- Section4. Spring MVC 인터셉터와 Mybatis
+  - [1. Interceptor](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section4/1.%20Interceptor.md)
 
 <br>
 

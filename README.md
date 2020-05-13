@@ -30,6 +30,7 @@
   - [7. Validator 커스터마이징](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section3/7.%20Validator%20%EC%BB%A4%EC%8A%A4%ED%84%B0%EB%A7%88%EC%9D%B4%EC%A7%95.md)
 - Section4. Spring MVC 인터셉터와 Mybatis
   - [1. Interceptor](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section4/1.%20Interceptor.md)
+  - [2. 예외처리](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section4/2.%20%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC.md)
 
 <br>
 

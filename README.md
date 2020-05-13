@@ -31,6 +31,7 @@
 - Section4. Spring MVC 인터셉터와 Mybatis
   - [1. Interceptor](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section4/1.%20Interceptor.md)
   - [2. 예외처리](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section4/2.%20%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC.md)
+  - [3. MyBatis-Java](https://github.com/seongmink/Study_Spring_MVC/blob/master/docs/section4/3.%20MyBatis-Java.md)
 
 <br>
 
